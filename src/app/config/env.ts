@@ -7,7 +7,7 @@ const envSchema = z.object({
   PORT: z.string(),
   Database_url: z.string(),
   REDIS_HOST: z.string(),
-  REDIS_PORT: z.coerce.number(), // FIX
+  REDIS_PORT: z.coerce.number(),
 });
 
 export const env = envSchema.parse(process.env);

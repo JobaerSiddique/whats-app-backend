@@ -11,6 +11,7 @@ const app_1 = __importDefault(require("./app"));
 const qr_socket_1 = require("./app/modules/socket/qr.socket");
 const db_1 = require("./app/config/db");
 const whatapp_service_1 = require("./app/modules/whatsApp/whatapp.service");
+const env_1 = require("./app/config/env");
 const server = http_1.default.createServer(app_1.default);
 const io = new socket_io_1.Server(server, {
     cors: { origin: "*" },
@@ -19,8 +20,8 @@ const io = new socket_io_1.Server(server, {
 const start = async () => {
     await (0, db_1.connectDB)();
     (0, whatapp_service_1.initWhatsApp)();
-    server.listen(5000, () => {
-        console.log("Server running on port 5000");
+    server.listen(env_1.env.PORT, () => {
+        console.log(`Server running on port ${env_1.env.PORT}`);
     });
 };
 start();

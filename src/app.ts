@@ -4,6 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import { messageRoutes } from "./app/modules/message/message.route";
 import globalErrorHandler from "./app/middleware/globalHandlerError";
+import { limiter } from "./app/middleware/rate-limit.middleware";
 
 const app = express();
 
@@ -11,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(helmet());
 app.use(morgan("dev"));
-
+app.use(limiter);
 app.get("/", (req: Request, res: Response) => {
   res.send("Hurry  server is running 🚀");
 });

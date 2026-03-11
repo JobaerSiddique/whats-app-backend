@@ -11,6 +11,6 @@ const envSchema = zod_1.z.object({
     PORT: zod_1.z.string(),
     Database_url: zod_1.z.string(),
     REDIS_HOST: zod_1.z.string(),
-    REDIS_PORT: zod_1.z.coerce.number(), // FIX
+    REDIS_PORT: zod_1.z.coerce.number(),
 });
 exports.env = envSchema.parse(process.env);

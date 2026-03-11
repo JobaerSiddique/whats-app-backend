@@ -8,6 +8,7 @@ import app from "./app";
 import { initSocket } from "./app/modules/socket/qr.socket";
 import { connectDB } from "./app/config/db";
 import { initWhatsApp } from "./app/modules/whatsApp/whatapp.service";
+import { env } from "./app/config/env";
 
 const server = http.createServer(app);
 
@@ -22,8 +23,8 @@ const start = async () => {
 
   initWhatsApp();
 
-  server.listen(5000, () => {
-    console.log("Server running on port 5000");
+  server.listen(env.PORT, () => {
+    console.log(`Server running on port ${env.PORT}`);
   });
 };
 
