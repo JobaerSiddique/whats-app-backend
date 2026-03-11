@@ -1,0 +1,40 @@
+2026-03-10 23:55:56:5556 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-10 23:55:57:5557 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-10 23:55:57:5557 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-10 23:55:57:5557 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:55:57:5557 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:55:57:5557 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:55:57:5557 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:56:44:5644 [32minfo[39m: [32m📁 Created WhatsApp session directory: ./whatsapp-session[39m
+2026-03-10 23:56:44:5644 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-10 23:56:44:5644 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-10 23:56:44:5644 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-10 23:56:44:5644 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:56:44:5644 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:56:44:5644 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:56:45:5645 [31merror[39m: [31mRedis connection error: connect ECONNREFUSED ::1:6379[39m
+2026-03-10 23:58:29:5829 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-10 23:58:29:5829 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-10 23:58:29:5829 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-10 23:58:29:5829 [32minfo[39m: [32mRedis connected successfully[39m
+2026-03-10 23:58:29:5829 [32minfo[39m: [32m✅ Redis connection test successful[39m
+2026-03-10 23:59:55:5955 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-10 23:59:55:5955 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-10 23:59:55:5955 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-10 23:59:56:5956 [32minfo[39m: [32mRedis connected successfully[39m
+2026-03-10 23:59:56:5956 [32minfo[39m: [32m✅ Redis connection test successful[39m
+2026-03-11 00:01:19:119 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-11 00:01:19:119 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-11 00:01:19:119 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-11 00:01:19:119 [32minfo[39m: [32mRedis connected successfully[39m
+2026-03-11 00:01:19:119 [32minfo[39m: [32m✅ Redis connection test successful[39m
+2026-03-11 00:01:49:149 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-11 00:01:49:149 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-11 00:01:49:149 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-11 00:01:49:149 [32minfo[39m: [32mRedis connected successfully[39m
+2026-03-11 00:01:49:149 [32minfo[39m: [32m✅ Redis connection test successful[39m
+2026-03-11 00:05:12:512 [32minfo[39m: [32m🚀 Initializing server...[39m
+2026-03-11 00:05:12:512 [32minfo[39m: [32m📡 Environment: development[39m
+2026-03-11 00:05:12:512 [32minfo[39m: [32m🔌 Port: 5000[39m
+2026-03-11 00:05:12:512 [32minfo[39m: [32mRedis connected successfully[39m
+2026-03-11 00:05:12:512 [32minfo[39m: [32m✅ Redis connection test successful[39m
