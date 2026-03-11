@@ -7,6 +7,10 @@
     "dev:server": "ts-node-dev --respawn --transpile-only src/server.ts",
     "dev:worker": "ts-node-dev --respawn --transpile-only src/workers/message.worker.ts",
     "dev": "concurrently \"pnpm dev:server\" \"pnpm dev:worker\"",
+    "build": "tsc || exit 0",
+    "start:server": "nodemon dist/server.js",
+    "start:worker": "nodemon dist/workers/message.worker.js",
+    "start": "concurrently \"pnpm start:server\" \"pnpm start:worker\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
